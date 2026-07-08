@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Pasto sintético</title>
+  <desc id="desc">Placeholder visual para Pasto sintético</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fee7" />
+      <stop offset="0.48" stop-color="#ecfccb" />
+      <stop offset="1" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="860" fill="url(#bg)" />
+  <circle cx="1010" cy="130" r="150" fill="#84cc16" opacity="0.14" />
+  <circle cx="170" cy="730" r="220" fill="#365314" opacity="0.08" />
+  <g>
+    <rect x="72" y="82" width="1056" height="624" rx="28" fill="#ffffff" opacity="0.86" />
+    <g clip-path="inset(94 84 166 84 round 22)">
+      <ellipse cx="38" cy="264" rx="10" ry="112" fill="#84cc16" opacity="0.78" transform="rotate(26 38 264)" /><ellipse cx="92" cy="301" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(-19 92 301)" /><ellipse cx="146" cy="338" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(-8 146 338)" /><ellipse cx="200" cy="375" rx="10" ry="112" fill="#84cc16" opacity="0.92" transform="rotate(3 200 375)" /><ellipse cx="254" cy="412" rx="10" ry="112" fill="#365314" opacity="0.78" transform="rotate(14 254 412)" /><ellipse cx="308" cy="449" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(25 308 449)" /><ellipse cx="362" cy="236" rx="10" ry="112" fill="#84cc16" opacity="0.92" transform="rotate(-20 362 236)" /><ellipse cx="416" cy="273" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(-9 416 273)" /><ellipse cx="470" cy="310" rx="10" ry="112" fill="#365314" opacity="0.78" transform="rotate(2 470 310)" /><ellipse cx="524" cy="347" rx="10" ry="112" fill="#84cc16" opacity="0.92" transform="rotate(13 524 347)" /><ellipse cx="578" cy="384" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(24 578 384)" /><ellipse cx="632" cy="421" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(-21 632 421)" /><ellipse cx="686" cy="458" rx="10" ry="112" fill="#84cc16" opacity="0.78" transform="rotate(-10 686 458)" /><ellipse cx="740" cy="245" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(1 740 245)" /><ellipse cx="794" cy="282" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(12 794 282)" /><ellipse cx="848" cy="319" rx="10" ry="112" fill="#84cc16" opacity="0.92" transform="rotate(23 848 319)" /><ellipse cx="902" cy="356" rx="10" ry="112" fill="#365314" opacity="0.78" transform="rotate(-22 902 356)" /><ellipse cx="956" cy="393" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(-11 956 393)" /><ellipse cx="1010" cy="430" rx="10" ry="112" fill="#84cc16" opacity="0.92" transform="rotate(0 1010 430)" /><ellipse cx="1064" cy="217" rx="10" ry="112" fill="#365314" opacity="0.92" transform="rotate(11 1064 217)" /><ellipse cx="1118" cy="254" rx="10" ry="112" fill="#365314" opacity="0.78" transform="rotate(22 1118 254)" /><ellipse cx="1172" cy="291" rx="10" ry="112" fill="#84cc16" opacity="0.92" transform="rotate(-23 1172 291)" />
+      <rect x="84" y="94" width="1032" height="500" fill="none" stroke="#84cc16" stroke-width="7" opacity="0.55" />
+    </g>
+  </g>
+  <g>
+    <rect x="92" y="630" width="520" height="88" rx="44" fill="#365314" opacity="0.92" />
+    <text x="132" y="684" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Pasto sintético</text>
+    <text x="132" y="724" fill="#ecfccb" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Imagen referencial 3</text>
+  </g>
+  <g transform="translate(990 650)">
+    <circle cx="0" cy="0" r="54" fill="#84cc16" />
+    <path d="M-22 2 C-5 -38 34 -30 24 4 C18 26 -3 34 -24 23" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+  </g>
+</svg>

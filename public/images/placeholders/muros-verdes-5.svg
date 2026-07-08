@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Muros verdes</title>
+  <desc id="desc">Placeholder visual para Muros verdes</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="0.48" stop-color="#ccfbf1" />
+      <stop offset="1" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="860" fill="url(#bg)" />
+  <circle cx="1010" cy="130" r="150" fill="#34d399" opacity="0.14" />
+  <circle cx="170" cy="730" r="220" fill="#0f766e" opacity="0.08" />
+  <g>
+    <rect x="72" y="82" width="1056" height="624" rx="28" fill="#ffffff" opacity="0.86" />
+    <g clip-path="inset(94 84 166 84 round 22)">
+      <ellipse cx="38" cy="300" rx="30" ry="58" fill="#34d399" opacity="0.78" transform="rotate(6 38 300)" /><ellipse cx="92" cy="337" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(17 92 337)" /><ellipse cx="146" cy="374" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(-28 146 374)" /><ellipse cx="200" cy="411" rx="30" ry="58" fill="#34d399" opacity="0.92" transform="rotate(-17 200 411)" /><ellipse cx="254" cy="448" rx="30" ry="58" fill="#0f766e" opacity="0.78" transform="rotate(-6 254 448)" /><ellipse cx="308" cy="235" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(5 308 235)" /><ellipse cx="362" cy="272" rx="30" ry="58" fill="#34d399" opacity="0.92" transform="rotate(16 362 272)" /><ellipse cx="416" cy="309" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(27 416 309)" /><ellipse cx="470" cy="346" rx="30" ry="58" fill="#0f766e" opacity="0.78" transform="rotate(-18 470 346)" /><ellipse cx="524" cy="383" rx="30" ry="58" fill="#34d399" opacity="0.92" transform="rotate(-7 524 383)" /><ellipse cx="578" cy="420" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(4 578 420)" /><ellipse cx="632" cy="457" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(15 632 457)" /><ellipse cx="686" cy="244" rx="30" ry="58" fill="#34d399" opacity="0.78" transform="rotate(26 686 244)" /><ellipse cx="740" cy="281" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(-19 740 281)" /><ellipse cx="794" cy="318" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(-8 794 318)" /><ellipse cx="848" cy="355" rx="30" ry="58" fill="#34d399" opacity="0.92" transform="rotate(3 848 355)" /><ellipse cx="902" cy="392" rx="30" ry="58" fill="#0f766e" opacity="0.78" transform="rotate(14 902 392)" /><ellipse cx="956" cy="429" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(25 956 429)" /><ellipse cx="1010" cy="216" rx="30" ry="58" fill="#34d399" opacity="0.92" transform="rotate(-20 1010 216)" /><ellipse cx="1064" cy="253" rx="30" ry="58" fill="#0f766e" opacity="0.92" transform="rotate(-9 1064 253)" /><ellipse cx="1118" cy="290" rx="30" ry="58" fill="#0f766e" opacity="0.78" transform="rotate(2 1118 290)" /><ellipse cx="1172" cy="327" rx="30" ry="58" fill="#34d399" opacity="0.92" transform="rotate(13 1172 327)" />
+      <rect x="84" y="94" width="1032" height="500" fill="none" stroke="#34d399" stroke-width="7" opacity="0.55" />
+    </g>
+  </g>
+  <g>
+    <rect x="92" y="630" width="520" height="88" rx="44" fill="#0f766e" opacity="0.92" />
+    <text x="132" y="684" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Muros verdes</text>
+    <text x="132" y="724" fill="#ccfbf1" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Imagen referencial 5</text>
+  </g>
+  <g transform="translate(990 650)">
+    <circle cx="0" cy="0" r="54" fill="#34d399" />
+    <path d="M-22 2 C-5 -38 34 -30 24 4 C18 26 -3 34 -24 23" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+  </g>
+</svg>
