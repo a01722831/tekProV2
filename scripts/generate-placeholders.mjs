@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const outputDir = join(process.cwd(), "public", "images", "placeholders");
+const outputDir = join(process.cwd(), "public", "images", "products");
 
 const categories = [
   ["decks-pergolados-fachadas-plafones", "Decks y fachadas", "planks"],
@@ -129,9 +129,12 @@ function makeSvg(slug, label, kind, index) {
 await mkdir(outputDir, { recursive: true });
 
 for (const [slug, label, kind] of categories) {
+  const categoryOutputDir = join(outputDir, slug, "placeholders");
+  await mkdir(categoryOutputDir, { recursive: true });
+
   for (let index = 1; index <= 5; index += 1) {
     await writeFile(
-      join(outputDir, `${slug}-${index}.svg`),
+      join(categoryOutputDir, `${String(index).padStart(2, "0")}.svg`),
       makeSvg(slug, label, kind, index),
       "utf8"
     );

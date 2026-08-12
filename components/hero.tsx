@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, MessageCircle, Recycle, ShieldCheck } from "lucide-react";
 import { contact } from "@/data/site";
@@ -7,9 +8,14 @@ export function Hero() {
     <section className="hero-section" id="inicio">
       <div className="hero-overlay" />
       <div className="section-container hero-content">
-        <div className="hero-logo" aria-label="Tek Products Monterrey">
-          <span className="hero-logo-mark">TEK</span>
-          <span className="hero-logo-text">Products Monterrey</span>
+        <div className="hero-logo-slot">
+          <Image
+            src="/images/branding/OficialLogo.png"
+            alt="Logotipo de Tek Products"
+            fill
+            priority
+            sizes="(max-width: 840px) 207px, 213px"
+          />
         </div>
         <h1>Soluciones ecológicas para construir tus ideas.</h1>
         <p>

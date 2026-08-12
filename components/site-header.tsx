@@ -26,7 +26,7 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
-      <Link className="brand-link" href="/#inicio" onClick={() => setIsOpen(false)}>
+      <Link className="brand-link" href="/" onClick={() => setIsOpen(false)}>
         <span className="brand-mark" aria-hidden="true">
           <Leaf size={22} strokeWidth={2.4} />
         </span>

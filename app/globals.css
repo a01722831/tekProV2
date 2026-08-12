@@ -494,33 +494,20 @@ a[href^="https://api.whatsapp.com"]:hover {
   padding: 72px 0 64px;
 }
 
-.hero-logo {
-  display: inline-flex;
-  align-items: center;
-  gap: 13px;
-  margin-bottom: 6px;
-  color: var(--green-800);
-  font-family: var(--font-heading);
-  font-weight: 800;
-}
-
-.hero-logo-mark {
-  display: inline-flex;
-  width: 60px;
+.hero-logo-slot {
+  position: relative;
+  width: min(213px, 100%);
   height: 60px;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgba(22, 163, 74, 0.35);
-  border-radius: 12px;
-  background: var(--white);
-  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.08);
-  font-size: 1.05rem;
+  justify-self: start;
+  margin-bottom: 6px;
 }
 
-.hero-logo-text {
-  max-width: 140px;
-  font-size: 1.05rem;
-  line-height: 1.05;
+.hero-logo-slot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left center;
 }
 
 .hero-content p {
@@ -581,13 +568,8 @@ a[href^="https://api.whatsapp.com"]:hover {
   color: var(--green-600);
 }
 
-.about-section {
-  background: linear-gradient(
-    180deg,
-    rgba(187, 247, 208, 0.66),
-    rgba(240, 253, 244, 0.96) 38%,
-    rgba(255, 255, 255, 1)
-  );
+main.home-content > section.page-section.about-section {
+  background: var(--white);
 }
 
 .about-grid,
@@ -1240,9 +1222,11 @@ body:has(dialog[open]) {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background:
-    linear-gradient(180deg, rgba(17, 24, 39, 0.18), rgba(17, 24, 39, 0.72)),
-    linear-gradient(90deg, rgba(21, 128, 61, 0.72), rgba(21, 128, 61, 0.2));
+  background: linear-gradient(
+    180deg,
+    rgba(17, 24, 39, 0.18),
+    rgba(17, 24, 39, 0.72)
+  );
 }
 
 .detail-hero-content {
@@ -1550,8 +1534,8 @@ body:has(dialog[open]) {
     padding: 48px 0 96px;
   }
 
-  .hero-logo-mark {
-    width: 54px;
+  .hero-logo-slot {
+    width: min(207px, 100%);
     height: 54px;
   }
 

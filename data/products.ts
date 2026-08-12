@@ -1,3 +1,5 @@
+import { productImageAssets } from "@/data/product-images";
+
 export type ProductImage = {
   src: string;
   sourceSrc?: string;
@@ -122,18 +124,34 @@ function buildImages(
   photos: string[],
   imageCaptions: string[]
 ): Pick<ProductCategory, "previewImages" | "galleryImages"> {
-  const galleryImages = photos.slice(0, 10).map((photoId, index) => {
-    const caption = imageCaptions[index % imageCaptions.length];
+  const uploadedImages = productImageAssets[slug];
+  const placeholderSrc = (index: number) => {
+    const placeholderName = String((index % 5) + 1).padStart(2, "0");
 
-    return {
-      src: `/images/placeholders/${slug}-${(index % 5) + 1}.svg`,
-      sourceSrc: unsplash(photoId),
-      fallbackSrc: `/images/placeholders/${slug}-${(index % 5) + 1}.svg`,
-      alt: `${caption} - referencia visual para ${title}`,
-      caption,
-      isPlaceholder: true
-    };
-  });
+    return `/images/products/${slug}/placeholders/${placeholderName}.svg`;
+  };
+
+  const galleryImages: ProductImage[] = uploadedImages?.length
+    ? uploadedImages.map((asset, index) => ({
+        src: `/images/products/${slug}/${asset.filename}`,
+        fallbackSrc: placeholderSrc(index),
+        alt: asset.alt,
+        caption: asset.caption,
+        isPlaceholder: false
+      }))
+    : photos.slice(0, 10).map((photoId, index) => {
+        const caption = imageCaptions[index % imageCaptions.length];
+        const src = placeholderSrc(index);
+
+        return {
+          src,
+          sourceSrc: unsplash(photoId),
+          fallbackSrc: src,
+          alt: `${caption} - referencia visual para ${title}`,
+          caption,
+          isPlaceholder: true
+        };
+      });
 
   return {
     previewImages: galleryImages.slice(0, 5),

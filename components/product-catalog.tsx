@@ -49,14 +49,6 @@ export function ProductCatalog() {
             />
           ))}
         </div>
-
-        <div className="catalog-note">
-          <Leaf size={18} aria-hidden="true" />
-          <span>
-            Las imágenes actuales son referenciales y están listas para
-            sustituirse por fotografías reales del catálogo.
-          </span>
-        </div>
       </div>
 
       <GalleryModal
