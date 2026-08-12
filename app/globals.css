@@ -1313,12 +1313,7 @@ body:has(dialog[open]) {
 }
 
 .detail-gallery-section {
-  background: linear-gradient(
-    180deg,
-    rgba(187, 247, 208, 0.66),
-    rgba(240, 253, 244, 0.96) 38%,
-    rgba(255, 255, 255, 1)
-  );
+  background: var(--white);
 }
 
 .detail-gallery-grid {
@@ -1590,9 +1585,6 @@ body:has(dialog[open]) {
 
   .floating-actions {
     right: 12px;
-    top: auto;
-    bottom: 18px;
-    transform: none;
   }
 
   .floating-action {

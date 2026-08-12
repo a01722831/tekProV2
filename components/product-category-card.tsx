@@ -120,7 +120,7 @@ export function ProductCategoryCard({
             onClick={onOpenGallery}
           >
             <Images size={17} aria-hidden="true" />
-            Ver galería
+            Ver galería completa
           </button>
         </div>
       </div>
